@@ -1,16 +1,48 @@
-# React + Vite
+# 💱 Currency Converter SPA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Простое и удобное одностраничное приложение (SPA) для конвертации валют и просмотра актуальных курсов.  
+Создано на **React + Vite + Tailwind CSS** с использованием открытого API обменных курсов.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Функциональность
 
-## React Compiler
+### 🧮 Конвертер валют
+- Введите запрос в формате:  
+15 usd in rub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+и получите результат мгновенно.
 
-## Expanding the ESLint configuration
+### 📊 Текущие курсы валют
+- Отображает актуальные курсы валют относительно базовой валюты (по умолчанию определяется автоматически).
+- Возможность изменить базовую валюту вручную.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Технологии
+
+| Технология | Назначение |
+|-------------|-------------|
+| [React](https://react.dev/) | UI-библиотека для построения интерфейсов |
+| [Vite](https://vitejs.dev/) | Быстрый инструмент сборки |
+| [Tailwind CSS](https://tailwindcss.com/) | Утилитарный CSS-фреймворк для стилизации |
+| [Axios](https://axios-http.com/) | Работа с API |
+| [React Router](https://reactrouter.com/) | Маршрутизация между страницами |
+
+---
+
+## ⚙️ Установка и запуск
+
+```bash
+# Клонировать репозиторий
+git clone https://github.com/valentinastanislavchuk/currency-converter.git
+cd currency-converter
+
+# Установить зависимости
+npm install
+
+# Запустить локальный сервер разработки
+npm run dev
+
+# После запуска открой в браузере:
+http://localhost:5173
